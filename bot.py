@@ -96,8 +96,8 @@ async def ping_server():
 async def keep_up():
     while True:
         try:
-            await ping_server()
             await asyncio.sleep(60)
+            await ping_server()
         except Exception as e:
             print(e)
 
