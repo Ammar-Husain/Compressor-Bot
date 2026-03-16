@@ -60,6 +60,7 @@ async def main():
         )
         os.remove(temp_filename)
 
+    print("Bot started succefully")
     await keep_up()
 
 
