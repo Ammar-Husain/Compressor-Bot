@@ -4,6 +4,7 @@ import tempfile
 from threading import Thread
 
 import dotenv
+import requests
 from flask import Flask
 from pyrogram import Client, filters
 
