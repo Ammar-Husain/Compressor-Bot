@@ -22,6 +22,8 @@ async def main():
     run_flask()
     app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
+    await app.start()
+
     @app.on_message(filters.command("start"))
     async def start(_, message):
         await message.reply("Send me video files, I will compress them for you.")
