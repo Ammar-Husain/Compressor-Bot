@@ -1,0 +1,16 @@
+# Video compression settings
+VIDEO_SCALE = "iw:ih"
+VIDEO_FPS = 24
+VIDEO_CODEC = "libx265"
+VIDEO_BITRATE = "100k"
+VIDEO_CRF = 30
+VIDEO_PRESET = "ultrafast"
+VIDEO_PIXEL_FORMAT = "yuv420p"
+VIDEO_PROFILE = "main"
+VIDEO_AUDIO_CODEC = "aac"
+VIDEO_AUDIO_BITRATE = "64k"
+VIDEO_AUDIO_CHANNELS = 1
+VIDEO_AUDIO_SAMPLE_RATE = 44100
+
+# Temporary file settings
+TEMP_FILE_SUFFIX_VIDEO = ".mp4"
