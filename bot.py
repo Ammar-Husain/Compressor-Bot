@@ -69,7 +69,7 @@ def run_flask():
     @server.route("/", methods=["GET"])
     def greet():
         print("Request")
-        return "ACMBot is UP"
+        return "Compressor Bot is UP"
 
     def flask_thread():
         server.run("0.0.0.0", port=8000)
